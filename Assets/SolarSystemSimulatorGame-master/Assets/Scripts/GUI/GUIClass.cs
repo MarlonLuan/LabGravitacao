@@ -164,17 +164,17 @@ public class GUIClass : MonoBehaviour
         }
         offX += stopIcon.width + 10f;
 
-        if (GUI.Button(new Rect(offX, y1, plusIcon.width, y2), plusIcon))
-        {
-            Scales.IncreaseTimeScale();
-        }
-        offX += plusIcon.width;
-
         if (GUI.Button(new Rect(offX, y1, minusIcon.width, y2), minusIcon))
         {
             Scales.DecreaseTimeScale();
         }
         offX += minusIcon.width;
+
+        if (GUI.Button(new Rect(offX, y1, plusIcon.width, y2), plusIcon))
+        {
+            Scales.IncreaseTimeScale();
+        }
+        offX += plusIcon.width;
 
         if (Scales.Pause == false)
             GUI.Label(new Rect(offX, y1, Screen.width, Screen.height), "x" + Scales.CurrentTimeScale.ToString());
