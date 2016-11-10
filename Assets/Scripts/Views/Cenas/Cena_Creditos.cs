@@ -32,6 +32,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
         void Update()
         {
             posicaoY -= Time.deltaTime * velocidade;
+            if (posicaoY < 0) posicaoY = 0;
         }
 
         new void OnGUI()

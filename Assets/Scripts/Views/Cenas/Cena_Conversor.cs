@@ -59,7 +59,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
             int qtDivisoes = 5;
 
             //#region area1
-            text = "Conversor de unidades";
+            text = "T² = k.R³";
             Rect viewArea1 = viewArea;
             viewArea1.height = viewArea.height * 2 / qtDivisoes;
             GUI.BeginGroup(viewArea1);

@@ -19,7 +19,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
             //base.Start();
             viewArea = MenuVertical.fundoMenu;
             posicaoY = viewArea.height;
-            text = "\r\n" + Auxiliar.LerArquivo(ModeloContextoCena.Id);
+            text = Auxiliar.LerArquivo(ModeloContextoCena.Id);
         }
 
         // Update is called once per frame
@@ -42,7 +42,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
 
             if (GUI.Button(Menu1Coluna.fundoBotaoLista[Menu1Coluna.fundoBotaoLista.Count - 1], Constantes.Label_Resposta))
             {
-                text = "\r\n" + Auxiliar.LerArquivo(ModeloContextoCena.Id + Constantes.Label_Resposta);
+                text = Auxiliar.LerArquivo(ModeloContextoCena.Id + Constantes.Label_Resposta);
             }
         }
     }
