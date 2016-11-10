@@ -208,7 +208,7 @@
         //public static MenuEnum MenuQueFoiSelecionadoTemporario;
 
         //public static string caminhoTexto = @"E:\OneDrive\Documentos\Projetos\Unity\LabGravitacao\Assets\Textos\";
-        public static string caminhoTexto = @"Assets\Textos\";
+        public static string caminhoTexto = @"Assets\GravitAux\";
         public static bool PermitidoAtalho = true;
 
         public static float excentricidade = 0.90f;

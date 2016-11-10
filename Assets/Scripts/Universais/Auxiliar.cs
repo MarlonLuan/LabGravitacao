@@ -11,7 +11,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts
             string result = "";
 
             
-            string caminho = Constantes.caminhoTexto + nomeArquivo + ".txt";
+            string caminho = Constantes.caminhoTexto + nomeArquivo + ".gravit";
 
             string text = System.IO.File.ReadAllText(caminho);
             /*
