@@ -51,7 +51,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
                 InputField_Excentricidade.onEndEdit = se;
                 InputField_Excentricidade.transform.parent.position = new Vector3(0, 0, 0);
                 InputField_Excentricidade.transform.position = new Vector3(0, 0, 0) + InputField_Excentricidade.transform.parent.position;
-                InputField_Excentricidade.text = Constantes.excentricidade.ToString();
+                InputField_Excentricidade.text = Constantes.eccentricity.ToString();
             }
         }
 
@@ -176,7 +176,7 @@ namespace MarlonLuan.MLFramework.Unity.Scripts.Views.Cenas
             {
                 string nome = arg0;// + 'f';
 
-                Constantes.excentricidade = float.Parse(nome.ToString()) ;
+                Constantes.eccentricity = float.Parse(nome.ToString()) ;
             }
             catch (System.Exception e)
             {

@@ -11,8 +11,9 @@ public static class Scales
 	}
 
 	public const float gravityColliderMult = 30;
-	public const float messageDuration = 8f;
-	public const float maxSpaceShipSpeed = 16.28f;
+	public const float messageDuration = 3f;
+    public const float messageDurationPrimeiraLei = 4f;
+    public const float maxSpaceShipSpeed = 16.28f;
 	public const float sunMass2EarthMass = 3.00347E-06f;
 	public const float earthMass2SunMass = 1 / sunMass2EarthMass;
 	public static float massScale = 16;

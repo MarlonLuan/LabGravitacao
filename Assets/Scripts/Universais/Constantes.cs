@@ -210,8 +210,17 @@
         //public static string caminhoTexto = @"E:\OneDrive\Documentos\Projetos\Unity\LabGravitacao\Assets\Textos\";
         public static string caminhoTexto = @"Assets\GravitAux\";
         public static bool PermitidoAtalho = true;
+        
+        //public static float eccentricity = 0.0934f;
+        public static float eccentricity = 0.6934f;
+        public static float r_pericenter = 1.3814f;
+        public static float orbital_period = 1.882f;
+        public static float radius = 0.53f;
+        public static float axial_tilt = 25.19f;
+        public static float rot_period = -0.0029f;
+        public static float longtitude_of_ascending_node = 49.6f;
+        public static float mass = 0.1075f;
 
-        public static float excentricidade = 0.90f;
         //public static string caminhoTexto = @"";
     }
 }
